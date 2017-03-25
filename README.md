@@ -32,7 +32,7 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
 				
 5. assign training labels to ytrain and ytest, merging the data sets with the activity_labels.txt data frame
 
-6. I desided to add  column identifying the type of source, before merging both data sets,: "train" and "test"
+6. I decided to add  column identifying the type of source, before merging both data sets,: "train" and "test"
 
 7. Bind columns from 3 data frames: for activity labels and subject ID for test and training main data sets
 
