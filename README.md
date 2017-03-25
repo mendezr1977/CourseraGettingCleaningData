@@ -30,7 +30,7 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
         including the ID row in the column names of features.txt, in order to make the name unique, so that later
         can use select statement from dplyr library
 				
-5. assign training labels to ytrain and ytest, merding teh data sets with the activity_labels.txtx data frame
+5. assign training labels to ytrain and ytest, merging the data sets with the activity_labels.txtx data frame
 
 6. I desided to add  column identifying the type of source, before merging both data sets,: "train" and "test"
 
