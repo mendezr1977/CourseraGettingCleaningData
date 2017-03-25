@@ -1,11 +1,11 @@
 # CourseraGettingCleaningData
-Coursera Getting and Cleaning data final class assigment
+Coursera Getting and Cleaning data final class assignment
 
 ## Pre conditions of script:
 1. access to url for downloading zip file containing original data sets
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-2. In workspace for R, create the following directory, and follow zip file stucture of data source:
+2. In workspace for R, create the following directory, and follow zip file structure of data source:
 ./ProgrammingAssignmentGettingCleaningData/DataSet
 ./ProgrammingAssignmentGettingCleaningData/DataSet/test
 ./ProgrammingAssignmentGettingCleaningData/DataSet/train
@@ -36,7 +36,7 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
 
 7. Bind columns from 3 data frames: for activity labels and subject ID for test and training main data sets
 
-8. Then reanem first 4 columns of merged data set : Source, SubjectID, TrainingID, TrainingLAbel
+8. Then rename first 4 columns of merged data set : Source, SubjectID, TrainingID, TrainingLAbel
 
 9. Only now it is possible to merge both main dataframes X_train and X_test
 
