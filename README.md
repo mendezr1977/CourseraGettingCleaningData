@@ -19,3 +19,5 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
 
 Script "run_analysis.R" description:
 
+#define source of each file in local folder structure
+#read each data source needed in the data set analysis and assign it to respective data frames
