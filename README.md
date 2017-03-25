@@ -30,7 +30,7 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
         including the ID row in the column names of features.txt, in order to make the name unique, so that later
         can use select statement from dplyr library
 				
-5. assign training labels to ytrain and ytest, merging the data sets with the activity_labels.txtx data frame
+5. assign training labels to ytrain and ytest, merging the data sets with the activity_labels.txt data frame
 
 6. I desided to add  column identifying the type of source, before merging both data sets,: "train" and "test"
 
@@ -40,7 +40,7 @@ with the mean values of all *std* and *mean* variables per subject ID and Activi
 
 9. Only now it is possible to merge both main dataframes X_train and X_test
 
-10. Load dplyr library and create new data frame only containing the variables with part of the name containign the string "mean" and "std", for mean and standard deviation variables. Use select statement from dplyr library
+10. Load dplyr library and create new data frame only containing the variables with part of the name containing the string "mean" and "std", for mean and standard deviation variables. Use select statement from dplyr library
 
 11. Loop through the data set and filtering by Activity ID and subject ID, and calculate the mean to each variable then rbing each result in new dataset MeanStd_Mean
 
